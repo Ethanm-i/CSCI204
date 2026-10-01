@@ -1,0 +1,228 @@
+Hardskill Outline
+
+4-Week SQL Learning Plan & Project 
+Overview 
+Skill: SQL & Databases 
+Duration: 4 weeks 
+Total Learning Time: 10 hours 
+Weekly Commitment: 2.5 hours 
+Level: Beginner 
+Overall Goal 
+Learn the fundamentals of SQL while completing a small database project that 
+demonstrates your ability to work with real-world data. 
+By the end of four weeks, you should be able to: 
+• Understand how relational databases work 
+• Write basic and intermediate SQL queries 
+• Filter and organize data 
+• Analyze data using aggregate functions 
+• Connect multiple tables using joins 
+• Answer business questions using SQL 
+• Build a small relational database 
+• Explain your project and what you learned 
+Week 1 — SQL Fundamentals 
+Time: 2.5 hours 
+Topics to Learn 
+• What databases are 
+• Tables, rows, and columns 
+• Primary keys 
+• Foreign keys 
+• SELECT 
+• WHERE 
+• AND / OR 
+• IN 
+• BETWEEN 
+• LIKE 
+• ORDER BY 
+• LIMIT 
+• DISTINCT 
+Practice 
+Use a simple sales dataset and answer questions such as: 
+1. Show all customers. 
+2. Find customers from a specific state. 
+3. Show products that cost more than $50. 
+4. Find the 10 most expensive products. 
+5. Find products in a specific category. 
+Week 1 Checkpoint 
+By the end of Week 1, you should be able to retrieve, filter, and sort information from a 
+database. 
+Week 2 — Analyzing Data 
+Time: 2.5 hours 
+Topics to Learn 
+• COUNT 
+• SUM 
+• AVG 
+• MIN 
+• MAX 
+• GROUP BY 
+• HAVING 
+Practice 
+Answer questions such as: 
+1. How many customers are there? 
+2. What is the average product price? 
+3. What is the total revenue? 
+4. How many orders did each customer make? 
+5. Which products generated more than $1,000 in sales? 
+6. What is the average order value? 
+Week 2 Checkpoint 
+By the end of Week 2, you should be able to summarize and analyze information stored in a 
+database. 
+Week 3 — Connecting Tables 
+Time: 2.5 hours 
+Topics to Learn 
+• INNER JOIN 
+• LEFT JOIN 
+• Joining multiple tables 
+• Subqueries 
+• CASE 
+• Introduction to CTEs 
+Database Structure 
+You will work with related tables: 
+Customers 
+↓ 
+Orders 
+↓ 
+Order_Items 
+↓ 
+Products 
+Practice 
+Answer questions such as: 
+1. What did each customer purchase? 
+2. How much did each customer spend? 
+3. Which products sell the most? 
+4. Which customers haven't purchased anything? 
+5. Which products have never been ordered? 
+6. How many products were included in each order? 
+Week 3 Checkpoint 
+By the end of Week 3, you should be able to work with multiple related tables and combine 
+information using SQL joins. 
+Week 4 — Final Project 
+Time: 2.5 hours 
+Project: Small Business Sales Database 
+Project Scenario 
+Imagine you work for a small online store. 
+Your task is to build a database that stores information about customers, products, orders, 
+and sales. 
+You will then use SQL to answer questions that could help the business understand its 
+sales. 
+Step 1 — Create the Tables 
+Create four tables: 
+Customers 
+customer_id 
+first_name 
+last_name 
+email 
+city 
+state 
+Products 
+product_id 
+product_name 
+category 
+price 
+Orders 
+order_id 
+customer_id 
+order_date 
+Order_Items 
+order_item_id 
+order_id 
+product_id 
+quantity 
+Step 2 — Add Data 
+Create sample data containing approximately: 
+• 10 customers 
+• 10 products 
+• 20 orders 
+• 30 order items 
+The data can be fictional. 
+Try to make the data realistic enough that your SQL queries produce meaningful results. 
+Step 3 — Answer Business Questions 
+Use SQL to answer the following: 
+Customer Analysis 
+1. How many customers do we have? 
+2. How many orders has each customer placed? 
+3. Which customers have spent the most? 
+4. Which customers have never placed an order? 
+Product Analysis 
+5. What are our five most expensive products? 
+6. Which products have sold the most? 
+7. Which products have never been sold? 
+Sales Analysis 
+8. What is the total revenue? 
+9. What is the average order value? 
+10. What is the total quantity of products sold? 
+Step 4 — Project Summary 
+Create a short README or project document containing the following: 
+Project Name 
+Small Business Sales Database 
+Purpose 
+Created a relational database for a fictional online store and used SQL to analyze 
+customers, orders, products, and sales. 
+Skills Demonstrated 
+• SQL 
+• Relational databases 
+• Filtering 
+• Aggregation 
+• GROUP BY 
+• HAVING 
+• JOIN 
+• Subqueries 
+• Database relationships 
+Key Findings 
+Top-selling product: ______________________ 
+Highest-spending customer: ______________________ 
+Total revenue: ______________________ 
+Average order value: ______________________ 
+Total products sold: ______________________ 
+4-Week Progress Checklist 
+Week 1 
+• Understand databases 
+• Understand tables, rows, and columns 
+• Understand primary and foreign keys 
+• Learn SELECT 
+• Learn WHERE 
+• Learn filtering operators 
+• Learn ORDER BY 
+• Learn LIMIT 
+• Practice SQL queries 
+Week 2 
+• Learn COUNT 
+• Learn SUM 
+• Learn AVG 
+• Learn MIN 
+• Learn MAX 
+• Learn GROUP BY 
+• Learn HAVING 
+• Complete data analysis exercises 
+Week 3 
+• Learn INNER JOIN 
+• Learn LEFT JOIN 
+• Practice multiple-table joins 
+• Learn subqueries 
+• Learn CASE 
+• Learn basic CTEs 
+• Complete SQL exercises 
+Week 4 
+• Create database 
+• Create tables 
+• Add sample data 
+• Write SQL queries 
+• Answer business questions 
+• Document project 
+• Review what you learned 
+• Complete final project 
+Daily Study Method 
+For each study session, use this approach: 
+15 Minutes — Learn 
+Watch a lesson, read documentation, or study examples. 
+15 Minutes — Follow Along 
+Write the examples yourself rather than simply watching. 
+30 Minutes — Practice 
+Solve SQL problems without looking at the answer. 
+Final 5 Minutes — Review 
+Write down: 
+• What I learned 
+• What I struggled with 
+• What I need to practice next 
+Final Goal 
+After four weeks and approximately 10 hours of focused practice, the goal is not to become 
+an SQL expert. 
